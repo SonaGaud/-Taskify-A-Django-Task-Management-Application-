@@ -1,1 +1,1 @@
-# -Taskify-A-Django-Task-Management-Application-
+# Taskify-A-Django-Task-Management-Application
