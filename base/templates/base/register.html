@@ -1,0 +1,25 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <h1>"Let's Get Organized with Taskify! Sign Up Today"</h1>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <p>**"Your password needs to be unique from your username and include a mix of numbers, letters, and symbols."**</p>
+        <label>{{form.username.label}}</label>
+        {{form.username}}
+       
+        <label>{{form.password1.label}}</label>
+        {{form.password1}}
+
+        <label>{{form.password2.label}}</label>
+        {{form.password2}}
+        <input style="margin-top:10px ;" class="button" type="submit" value="Register">
+    </form>
+    <p>"Have an existing account?" <a href="{% url 'login' %}">Login</a></p>
+</div>
+
+{% endblock content %}
