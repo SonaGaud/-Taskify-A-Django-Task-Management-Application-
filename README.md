@@ -1,4 +1,4 @@
-# Taskify-A-Django-Task-Management-Application
+# Taskify-A Task Management Application
 This project is a web-based To-Do List application developed using the Django web framework. 
 It provides users with a platform to create, manage, and organize their tasks effectively. 
 With features like user authentication, task creation, updating, deletion, reordering, and search functionality, this application aims to streamline task management and enhance productivity.
